@@ -20,7 +20,7 @@ app.use(
 );
 
 const server = http.createServer(app);
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 type Message = {
   id: string;
