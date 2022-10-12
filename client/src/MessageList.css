@@ -1,0 +1,16 @@
+.MessageList {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 100%;
+    vertical-align: top;
+}
+
+.MessageList > p {
+    border: 2px solid gray;
+    border-radius: 0.5em;
+    padding: 0.4em;
+    margin: 0.2em;
+    text-align: start;
+    vertical-align: top;
+}

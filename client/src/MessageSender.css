@@ -1,0 +1,14 @@
+.MessageSender {
+    display: grid;
+    padding: 1em;
+}
+
+.MessageSender > input {
+    padding: 0.5em;    
+}
+
+.MessageSender > button {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
